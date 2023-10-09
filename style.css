@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.info_header{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 18px;
+    justify-content: space-around;
+}
+.lc{
+    color: #ff0000;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 10px 100px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    padding: 4px;
+    width: 100%;
+    justify-content: space-around;
+    
+   
+}
+.menu li {
+    font-size: 23px;
+    padding: 10px;
+}
+.menu_header{
+   
+    display: flex;
+}
+.dv_img{
+    padding: 40px;
+    
+}
+.search{
+    padding: 20px;
+}
+.H1{
+    display: flex;
+    justify-content: center;
+    padding: 39px ;
+    font-weight: 900;
+    font-size: 40px;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.redmi{
+  
+}
+    
+
+.imgandparagrafs{
+    
+    justify-content: right;
+    padding: 10px ;
+}
+.card_new{
+    display: flex;
+}
+.dv_text{
+    padding: 40px;
+}
+body{
+    background-color: cadetblue;
+}
+
+.card_neww{
+    display: flex;
+    
+    
+}
+ .dv_imgg{
+    padding: 40px;
+    
+ }
+.dv_textt{
+    padding: 40px;
+}
+@media (max-width:426px) {
+    .card_new{
+        display: flex;
+        flex-direction: column;
+    }
+    .dv_img{
+        padding: 40px;
+        
+    }
+    .dv_text{
+        padding: 40px;
+    }
+    .card_neww{
+        display: flex;
+        flex-direction: column-reverse;
+        
+        
+    }
+    .dv_imgg{
+        padding: 40px;
+        
+     }
+     .dv_textt{
+        padding: 40px;
+    }
+    .menu{
+        display: flex;
+        list-style-type: none;
+        padding: 4px;
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: column;
+       
+    }
+    .info_header{
+        display: flex;
+        background-color: black;
+        color: white;
+        padding: 18px;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 100%;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        background-color: aliceblue;
+        padding: 10px 100px;
+        width: 100%;
+    }
+.img_mobile{
+    width: 100%;
+}
+..H1{
+    display: flex;
+    justify-content: center;
+    padding: 39px ;
+    font-weight: 900;
+    font-size: 40px;
+    flex-direction: column;
+}
+..text1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    flex-direction: column;
+}
+}
